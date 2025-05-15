@@ -1,7 +1,7 @@
 matplotlib
 progress
 scikit-learn
-scikit-learn-intelex
+#scikit-learn-intelex //Not working, and not needed for now
 func_timeout
 alive_progress
 xgboost

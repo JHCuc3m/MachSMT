@@ -33,8 +33,9 @@ class MachSMT:
         if not self.db.is_complete():
             raise MachSMT_IncompleteDataError
 
-        self.multi_logic = len(self.db.get_logics()) > 1
-        
+        #self.multi_logic = len(self.db.get_logics()) > 1
+        self.multi_logic = True #It should not be relevant
+
         self.selectors = {}
         self.selectors['EHM'] = EHM(self.db)
         self.default_selector = 'EHM'
